@@ -178,26 +178,150 @@ margin-top: 15px;
     font-family: Montserrat, sans-seraf;
 }
 
+/* <----------------------------------------------------Rodapé-------------------------------------------> */
+
 footer {
     width: 100%;
     height: 100%;
     background-color: #26333d;
     padding: auto;
+
 }
 
 footer-flex {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+
     justify-content: space-between;
 }
 
 footer nav {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 
+footer img{
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 50px;
+    margin-inline-end: 20px;
+}
+
+/* banner */
+#banner{
+    background-color:  #4969df;
+    width: 100%;
+    height: 570px;
+}
+.banner-info{
+    width: 450px;
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner-flex{
+    display: flex;
+    border: 2px solid #4969df;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner img{
+    width: 500px;
+    height: 500px;
+    align-self: flex-end;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+.banner-info p {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-info button{
+    background-color: #26333d;
+     color: white;
+    /* font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px; */ 
+
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+    border: none;
+    text-transform: uppercase; 
+}
+
+.Benner-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+#Benner {
+
+    background-color: #3691D8;
+    margin-top: 50px;
+}
+
+.totalmente {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+.nossa{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    width: 50%;
+    font-family: "Montserrat", sans-serif;
+}
+#Benner h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+#Benner p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Benner button {
+    background-color: #26333d;
+    color: white;
+    align-items: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
 
 
 /* /article/
