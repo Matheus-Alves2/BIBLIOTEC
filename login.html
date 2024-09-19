@@ -1,163 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliotec - A sua biblioteca digital</title>
-    <link rel="stylesheet" href="./Css/home.css">
+    <title>login-bibliotec</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        body{
+            background-size: 100%;
+            background-image: url("images/login-bk-desktop.png");
+        }
+    </style>
 </head>
 
 <body>
-
     <header>
-        <div class="Layout-grid header-flex">
-            <img src="./images/logo-desktop.svg" alt="Livro aberto com o texto bibliotec ao seu lado">
+        <div class="layout-grid header-flex">
+            <img src="images/logo-recortado.png" alt="Logo da marca da BiblioTec">
             <nav>
-                <a href="#">Quem Somos</a>
-                <a href="#">Nosso Acervo</a>
+                <a href="#">Quem somos</a>
+                <a href="#">Nosso acervo</a>
                 <a href="#">Login</a>
+            </nav>
         </div>
-        </nav>
-
-
     </header>
 
-    <main>
-        <!--main-->
 
+    <main class="layout-grid login-flex">
+        
+            <form class="login">
+            <h1>Entre na biblio Tec</h1> <br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email@gmail.com">
+            <label for="senha">Senha</label>
+            <input type="senha" id="senha" placeholder="*************">
+            <a href="https://www.instagram.com/" target="_blank">Esqueceu a senha </a>
+            <button > ENTRAR</button>
 
+        </form>
+        
 
-        </div>
-        </section>
-
-        <section id="banner">
-            <div class="Layout-grid banner-flex">
-                <div class="banner-info">
-                    <h1>Bem-Vindo ao Bibliotec</h1>
-                    <p>O melhor gerenciador para bibliotec de maneira moderna e
-                        automatizada!
-                    </p>
-                    <button>acessar</button>
-                </div>
-                <img src="images/banner-mulher-livro.png" alt="mulher">
-            </div>
-
-        </section>
-
-
-        <section class="bibliotec-flex">
-            <div class="Layout-grid bibliotec-flex">
-                <div class="Titulo">
-                    <h2> Porque usar a Bibliotec?</h2>
-                    <hr>
-                </div>
-
-
-                <article class="Articule">
-
-                    <article class="Circulo"><img src="images/book-solid.svg" alt="livro"></article>
-                    <h3>Reserve seu livro online</h3>
-                    <p>Imagine livros que ama listados em um só lugar</p>
-                </article>
-
-                <article class="Articule">
-                    <article class="Circulo"><img src="images/check-solid.svg" alt=""></article>
-                    <h3>Visualize se seu livro estará disponivel</h3>
-                    <p>Imagine livros que ama listados em um só lugar</p>
-                </article>
-
-                <article class="Articule">
-                    <article class="Circulo"><img src="images/heart-solid.svg" alt=""></article>
-                    <h3>Faça sua lista de favoritos</h3>
-                    <p>Imagine todos os livros que ama listados em um só lugar</p>
-                </article>
-
-                <section id="Benner">
-                    <div class="Layout-grid Benner-flex">
-                        <div class="Dividir">
-                            <article class="totalmente">
-                                <img src="Imagens/totalmente-gratis.png" alt="">
-                            </article>
-    
-                            <article class="nossa">
-                                <h2>
-                                    Acesse a nossa plataforma!
-                                </h2>
-    
-                                <p>
-                                    Faça o login ou solicite <br> cadastro para a bibliotecária.
-                                </p>
-    
-                                <button>
-                                    Acessas
-                                </button>
-    
-                            </article>
-                            
-                <!--------------------Section 1, Imagine livros que ama listado em um so lugar-------------------->
-                <section class="Books-flex">
-
-                    <div class="Layout-grid Books-flex">
-                        <div class="Titulo">
-                            <h2>Top 4 livros recomendados</h2>
-                            <hr>
-                        </div>
-                        <!--------------------------------------------------------------------->
-                        <article class="Livros">
-                            <img class="imgnpc" src="images/livro1.png" alt="Livro1">
-                            <h2>A escolha do bem e do mal</h2>
-                            <h3>Autor(a)</h3>
-                            <p>Soman Chainani</p>
-                        </article>
-                        <!--------------------------------------------------------------------->
-                        <article class="Livros">
-                            <img src="images/livro2.png" alt="Livro2">
-                            <h2>Filhas da lua </h2>
-                            <h3>Autor(a)</h3>
-                            <p>Carolana França</p>
-                        </article>
-                        <!--------------------------------------------------------------------->
-                        <article class="Livros">
-                            <img src="images/livro3.png" alt="Livro3">
-                            <h2>T.I para negocios </h2>
-                            <h3>Autor(a)</h3>
-                            <p>Edson Perin</p>
-                        </article>
-                        <!--------------------------------------------------------------------->
-                        <article class="Livros">
-                            <img src="images/livro4.png" alt="Livro4">
-                            <h2> Mestre do tempo </h2>
-                            <h3>Autor(a)</h3>
-                            <p>R.V Campbell</p>
-                        </article>
-                        <!--------------------------------------------------------------------->
-
-                    </div>
-
-
-                </section>
     </main>
-
-    <footer>
-        <div class="footer-flex ">
-
-            <div class="conteudo">
-                <div class="logo-footer"></div>
-                <img src="images/logo-recortado.png" alt="bibliotec">
-                <img src="images/logo-senai-vermelho.png" alt="logo-senai">
-                <img src="" alt="" </div>
-
-                <nav class="conteudo">
-                    <div>
-
-                    </div>
-                </nav>
-
-
-            </div>
-    </footer>
-
+    
 </body>
-
 </html>
